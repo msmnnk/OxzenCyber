@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="utf-8" />
+    <title>OXZEN</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="icon" type="image/png" href="img/logo.png" />
+</head>
+
+<body>
+    <header>
+        <nav class="navigation-menu">
+            <ul>
+                <li><img src="img/logo.png" alt="Oxzen logo" width="50" height="50"></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="https://www.linkedin.com/company/oxzen" target="_blank">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <h1>Join us in innovating cybersecurity for SMEs</h1>
+        <p>
+            Our mission is simple yet powerful: make cybersecurity accessible and affordable for all.
+            <strong>Together, we can make it a reality.</strong>
+        </p>
+
+        <form class="email-form" id="email-section" onsubmit="return validateEmail()">
+            <div class="email-input-container">
+                <input type="email" class="email-input" name="email" id="email" placeholder="Enter your email..." required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
+                <div id="validation-message"></div>
+                <button type="submit" class="submit-button">Collaborate!</button>
+            </div>
+        </form>
+        
+    </header>
+
+    <main>
+        <nav class="sponsor-logos">
+            <ul>
+                <li class="small-logo">
+                    <a href="https://www.cardiff.ac.uk" target="_blank"><img src="img/cardiff-logo.png"
+                            alt="Cardiff University logo"></a>
+                </li>
+                <li class="small-logo">
+                    <a href="https://www.swansea.ac.uk" target="_blank"><img src="img/swansea-logo.png"
+                            alt="Swansea University logo"></a>
+                </li>
+                <li class="big-logo">
+                    <a href="https://www.cyberinnovationhub.wales" target="_blank"><img src="img/cyberhub-logo.jpg"
+                            alt="Cyber Innovation Hub logo"></a>
+                </li>
+                <li class="big-logo">
+                    <a href="https://www.alacrityfoundation.co.uk" target="_blank"><img src="img/alacrity-logo.svg"
+                            alt="Alacrity Foundation logo"></a>
+                </li>
+            </ul>
+        </nav>
+
+        <section>
+            <article class="intro">
+                <h2>Small steps can make a big impact</h2>
+                <p>
+                    Partner with us to build a safer future for your own business and unlock cybersecurity access for
+                    everyone.
+                    <a href="#" class="link-in-text"><strong>Get in touch</strong></a> today to learn more about our
+                    partnership opportunities and how you can make a real impact!
+                </p>
+            </article>
+        </section>
+
+        <section class="cards-set">
+            <article class="card">
+                <img src="img/illustration-accessible.jpg" alt="Illustration" width="150" height="150">
+                <h3>Accessible</h3>
+                <p>Our platform is designed for organisations of all sizes, regardless of technical expertise.</p>
+            </article>
+
+            <article class="card">
+                <img src="img/illustration-comprehensive.jpg" alt="Illustration" width="150" height="150">
+                <h3>Comprehensive</h3>
+                <p>We cover all aspects of Cyber Essentials and guide you through every step of the journey.</p>
+            </article>
+
+            <article class="card">
+                <img src="img/illustration-affordable.jpg" alt="Illustration" width="150" height="150">
+                <h3>Affordable</h3>
+                <p>Our solution is resource-friendly and aims to reduce the need for expensive outsourcing.</p>
+            </article>
+        </section>
+
+        <section id="about">
+            <img id="img-left-top" src="img/illustration-left-top.jpg" alt="Illustration left" width="300" height="300">
+            <article id="text-right-top">
+                <h2>Empower small business, secure big future</h2>
+                <p>
+                    We are a passionate team of three co-founders sponsored by the
+                    <a href="https://cyberinnovationhub.wales" class="link-in-text" target="_blank">
+                        <strong>Wales Cyber Innovation Hub</strong></a> and the Welsh government. Our collaboration
+                    stems from a shared empathy for the injustice faced by smaller organisations when it comes to
+                    current cybersecurity solutions being too expensive and technically complex. Motivated by this,
+                    we are committed to developing a risk-appropriate, simple, accessible, and affordable all-in-one
+                    platform aimed at spreading impactful security measures to SMEs.
+                </p>
+            </article>
+
+            <article id="text-left-bottom">
+                <h2>Bridge existing gaps, build new bridges</h2>
+                <p>
+                    To establish our credibility, we are grounding ourselves with the
+                    <a href="https://www.ncsc.gov.uk/cyberessentials/overview" class="link-in-text"
+                        target="_blank"><strong>Cyber Essentials</strong></a>, a government-backed scheme designed to
+                    protect organisations from cyber-attacks. While valuable, its technical nature can be daunting for
+                    those without expertise. By assessing your organisation's needs and automating technical checks,
+                    we simplify the entire journey with our innovative application to offer clear, jargon-free
+                    instructions, error-checkings and real-time feedback, ensuring compliance without headache.
+                </p>
+            </article>
+            <img id="img-right-bottom" src="img/illustration-right-bottom.jpg" alt="Illustration right" width="300"
+                height="300">
+        </section>
+
+        <section class="statistic-section">
+            <article class="statistic">
+                <h3>£4200</h3>
+                <p>cost of a single cybersecurity attack</p>
+            </article>
+
+            <article class="statistic">
+                <h3>11 days</h3>
+                <p>time to achieve Cyber Essentials certification</p>
+            </article>
+
+            <article class="statistic">
+                <h3>1 hour</h3>
+                <p>time current solution offer to support SMEs</p>
+            </article>
+
+            <article class="statistic">
+                <h3>70%</h3>
+                <p>feel existing solution dont meet their needs</p>
+            </article>
+        </section>
+
+        <section class="partnership-section">
+            <img id="partner-illustration" src="img/illustration-partnership.jpg" alt="Illustration" width="400"
+                height="400">
+            <div class="text-container">
+                <header class="section-header">
+                    <h2>Partnership directions</h2>
+                </header>
+                <main>
+                    <article>
+                        <h3>SMEs</h3>
+                        <p>
+                            SMEs that partner with us play a crucial role in shaping cybersecurity solutions tailored
+                            specifically to their needs. Your input allows us to understand the problems businesses
+                            encounter and ensure our solutions address them effectively.
+                        </p>
+                    </article>
+                    <article>
+                        <h3>Consultancies</h3>
+                        <p>
+                            Consultancies that partner with us and offer valuable insights contribute to workflow
+                            optimisation solutions and ability to serve more clients in less time without sacrificing
+                            quality and deliver exceptional cybersecurity support for SMEs.
+                        </p>
+                    </article>
+                </main>
+            </div>
+        </section>
+
+        <section class="qa-section">
+            <header class="section-header">
+                <h2>Q&A</h2>
+            </header>
+            <main class="qa-container">
+                <div class="qa-column">
+                    <article>
+                        <h4 class="question">Q1. How are you different?</h4>
+                        <p class="answer">We don't just dictate instructions; we guide you through every step of the
+                            process, ensuring clarity and real-time support as you implement the most crucial and
+                            effective security measures.</p>
+                    </article>
+
+                    <article>
+                        <h4 class="question">Q2. How can I contribute?</h4>
+                        <p class="answer">Our partnership involves ongoing engagement, agile-based meetings to tailor
+                            our roadmap to your specific needs, sharing wireframes and actively involving you in
+                            testing our MVP.</p>
+                    </article>
+                </div>
+
+                <div class="qa-column">
+                    <article>
+                        <h4 class="question">Q3. How is it beneficial for me?</h4>
+                        <p class="answer">We offer free access to our MVP for testing and significant discounts on the
+                            final product for our initial partners, as well as prioritise addressing the problems your
+                            organisation faces.</p>
+                    </article>
+
+                    <article>
+                        <h4 class="question">Q4. When will the product be ready?</h4>
+                        <p class="answer">Tailoring to the needs, feedback, and traction garnered from our partners and
+                            clients, the timeline for our MVP release may range from 3 to 6 months (no later than
+                            September 2024).</p>
+                    </article>
+                </div>
+            </main>
+        </section>
+
+        <section class="quotes-section">
+            <header id="green-section-header">
+                <h2>What people say about us</h2>
+            </header>
+            <main class="quotes-container">
+                <article class="quote">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua."</p>
+                    <p><a href="https://www.linkedin.com/in/rob-saddler-33b641b0" class="link-in-text" target="_blank">
+                            <strong>Rob Saddler</strong></a></p>
+                    <p class="job-position">Director & CTO, Hurley & Davies</p>
+                </article>
+
+                <article class="quote">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua."</p>
+                    <p><a href="https://www.linkedin.com/in/njwoodhouse" class="link-in-text" target="_blank">
+                            <strong>Nathan Woodhouse</strong></a></p>
+                    <p class="job-position">Director & CTO, Calibrae Learning</p>
+                </article>
+
+                <article class="quote">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua."</p>
+                    <p><a href="https://www.linkedin.com/in/hannah-williams-tiny-rebel" class="link-in-text"
+                            target="_blank">
+                            <strong>Hannah Williams</strong></a></p>
+                    <p class="job-position">Director & CFO, Tiny Rebel</p>
+                </article>
+            </main>
+        </section>
+
+        <section class="team-container">
+            <img id="team-image" src="img/team-image.png" alt="Team image">
+            <img src="img/lewys-image.jpg" alt="Lewys Davies" class="person-image" width="200" height="200">
+            <article class="person lewys">
+                <p><a href="https://www.linkedin.com/in/lewys-davies-576529227" class="link-in-text"
+                        target="_blank"><strong>Lewys</strong></a>, a Cyber Scheme Team Member and
+                        a software engineer with a Master's degree in Cybersecurity from Swansea University.</p>
+            </article>
+            <img src="img/mariia-image.jpg" alt="Mariia Semenenko" class="person-image" width="200" height="200">
+            <article class="person mariia">
+                <p><a href="https://www.linkedin.com/in/msmnnk" class="link-in-text"
+                        target="_blank"><strong>Mariia</strong></a>, an artistic soul armed with a Master's degree in
+                    Computer Science from Cardiff University and expertise in user experience and accessibility.</p>
+            </article>
+            <img src="img/brad-image.jpg" alt="Bradley Bennet" class="person-image" id="brad" width="200" height="200">
+            <article class="person brad" id="brad">
+                <p><a href="https://www.linkedin.com/in/bradley-bennett-47b099142" class="link-in-text"
+                        target="_blank"><strong>Brad</strong></a>, a borned entrepreneur with a military background and
+                    a Master's degree in Financial Technology from the University of the West of England.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <header class="footer-contact-us">
+                <h2>Want to make a difference together?</h2>
+                <button type="button">Contact us</button>
+            </header>
+
+            <main class="footer-content">
+                <div class="logo-footer">
+                    <img id="logo-footer" src="img/logo.png" alt="Oxzen logo" width="50" height="50">
+                    <h3>OXZEN</h3>
+                </div>
+                <div class="email">
+                    <i class="fa-regular fa-envelope"></i>
+                    <a href="mailto:contact@oxzen.com" class="link-in-text">contact@oxzen.com</a>
+                </div>
+
+                <section class="effect">
+                    <div class="buttons">
+                        <a href="https://www.linkedin.com/company/oxzen" target="_blank" class="in"
+                            title="Oxzen LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/oxzencyber" target="_blank" class="fb"
+                            title="Oxzen Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/oxzencyber" class="insta" target="_blank"
+                            title="Oxzen Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                </section>
+                <section id="empty-space"></section>
+            </main>
+        </section>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+    <script src="https://kit.fontawesome.com/fc3aecaba8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
