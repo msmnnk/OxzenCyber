@@ -501,8 +501,9 @@ section h2 {
   margin-right: 10%
 }
 
-.email {
-  margin-right: 1.5rem;
+.link-white {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .footer-contact-us h2 {
@@ -548,6 +549,7 @@ section h2 {
   justify-content: space-between;
   align-items: center;
   margin-left: 17%;
+  margin-right: 17%;
   margin-top: 0.7%;
   margin-bottom: 2%;
 }
@@ -893,7 +895,7 @@ section h2 {
   .footer-content {
     flex-direction: column;
     text-align: center;
-    margin-left: 0;
+    margin-left: 19%;
   }
 
   .logo-footer {
@@ -1140,7 +1142,7 @@ section h2 {
   .footer-content {
     flex-direction: column;
     text-align: center;
-    margin-left: 0;
+    margin-left: 19%;
   }
 
   .logo-footer {
@@ -1460,8 +1462,7 @@ section h2 {
   }
 
   .footer-content {
-    width: 86%;
-    margin-left: 17%;
+    width: 66%;
     margin-top: 0.7%;
     margin-bottom: 2%;
   }
